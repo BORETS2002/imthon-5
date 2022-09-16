@@ -1,0 +1,87 @@
+.family {
+  padding: 0 30px;
+  padding-bottom: 125px;
+}
+.familiy-big-text {
+  margin-bottom: 43px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+.family-middle-text {
+  font-weight: 400;
+  margin-bottom: 18px;
+  font-size: 17px;
+  line-height: 26px;
+  color: #515151;
+}
+.family-mini-text {
+  margin-bottom: 46px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+@media screen and (max-width: 768px) {
+  .family {
+    padding: 0 1px;
+    padding-bottom: 46px;
+  }
+
+  .familiy-big-text {
+    margin: 0;
+    margin-bottom: 34px;
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .family-middle-text {
+    margin: 0;
+    margin-bottom: 18px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .family-mini-text {
+    font-size: 12px;
+    line-height: 18px;
+    color: #515151;
+  }
+  .family-foto {
+    width: 290px;
+    height: 229px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 468px) {
+  .family-foto {
+    width: 390px;
+    height: 329px;
+  }
+}
+
+.more {
+  width: 177px;
+  background: #dc7000;
+  color: #fff;
+  padding: 12px 44px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.family-box {
+  width: 100%;
+  max-width: 490px;
+  margin: 0 auto;
+}
+
+.family-foto-box {
+  width: 100%;
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.family-foto {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,86 @@
+.hero {
+  background-image: url("/images/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-0ne {
+  padding-top: 128px;
+  padding-bottom: 106px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.boton {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero-big-box {
+  width: 50%;
+  max-width: 480px;
+}
+.digital-text {
+  color: #e87d0e;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 155.2%;
+}
+
+.hero-big-text {
+  margin-top: 17px;
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 155.2%;
+}
+.hero-mini-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  margin-bottom: 50px;
+}
+
+.img-box {
+  width: 100%;
+  width: 690px;
+  height: 590px;
+  background-image: url("/images/poctaci.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-0ne {
+    padding-top: 108px;
+    padding-bottom: 108px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .digital-text {
+    font-size: 16px;
+    line-height: 155.2%;
+  }
+
+  .hero-big-text {
+    margin-top: 31px;
+    margin-bottom: 28px;
+    text-align: start;
+    font-size: 34px;
+  }
+  .hero-mini-text {
+    font-size: 14px;
+    text-align: start;
+
+    margin-bottom: 35px;
+  }
+
+  .hero {
+    background-image: url("/images/bgimg-hero.svg");
+    background-size: contain;
+
+    background-position: 0 calc(100%);
+  }
+}

@@ -1,0 +1,72 @@
+.header-shap {
+  display: block;
+  display: flex;
+  width: 450px;
+  margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+  .header-shap {
+    display: none;
+  }
+}
+.addres {
+  margin-bottom: 0 !important;
+}
+.location {
+  &::before {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 15px;
+    margin-right: 12px;
+    background-image: url("/images/map.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.tel {
+  margin-left: 100px;
+  &::before {
+    display: block;
+    content: "";
+    width: 14px;
+    height: 15px;
+    margin-right: 6px;
+    background-image: url("/images/telefon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.navbar {
+  background-color: #e47603;
+}
+#header-hreft {
+  color: #e47603;
+}
+.nav-item {
+  margin-right: 70px;
+
+  &:nth-child(1) {
+    margin-right: 80px;
+  }
+}
+.btin {
+  font-weight: 400;
+  font-size: 13px;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.nav-item:nth-child(1) {
+  &::before {
+    display: block;
+    content: "";
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+}

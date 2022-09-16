@@ -1,1 +1,44 @@
+.site-footer {
+  padding: 0 30px;
+  padding-top: 66px;
+  padding-bottom: 29px;
+}
+.logo-boxs {
+  max-width: 350px;
+}
+.fot-mini {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer-mini-text {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer-box-twoo {
+  max-width: 262px;
+}
+.footer-one-text {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+.footer-end {
+  padding-bottom: 29px;
+}
+.foter-span-twoo {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 190.6%;
+}
 
+@media screen and (max-width: 768px) {
+  .foter-span-twoo {
+    font-size: 12px;
+    line-height: 190.6%;
+  }
+}

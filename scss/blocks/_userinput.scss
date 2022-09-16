@@ -1,0 +1,110 @@
+.userinput {
+  padding: 0 30px;
+  padding-bottom: 148px;
+}
+.userinput-mini-box {
+  max-width: 515px;
+}
+.userinput-big-text {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 187.5%;
+}
+.userinput-mini-text {
+  margin-bottom: 74px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187.5%;
+  color: #525252;
+}
+.userinput-minitext-box {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+.userinputbox-mini-twoo {
+  max-width: 605px;
+}
+.userinput-big-box {
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-bottom: 41px;
+  padding-left: 56px;
+}
+.form-control:focus {
+  background-color: #fff;
+  border-color: transparent;
+  outline: 0;
+  border: 1px solid #000 !important;
+  box-shadow: 0 0 0 0.25rem transparent !important;
+}
+.input {
+  max-width: 386px;
+}
+
+.input-button {
+  position: absolute;
+  top: 10px;
+  left: calc(50% + 95px);
+  color: #fff !important;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#buton {
+  z-index: 10;
+}
+#one-pading {
+  padding-right: 110px;
+}
+
+@media screen and (max-width: 585px) {
+  .userinput {
+    padding-bottom: 69px;
+  }
+
+  .userinput-big-box {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 23px;
+    padding-left: 20px;
+  }
+
+  .userinput-minitext-box {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .userinput-big-text {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-bottom: 13px;
+    line-height: 187.5%;
+  }
+
+  .userinput-mini-text {
+    font-size: 12px;
+    line-height: 187.5%;
+    margin-bottom: 41px;
+  }
+
+  .input {
+    max-width: 270px;
+  }
+
+  .input-button {
+    left: calc(60%);
+  }
+}
+@media screen and (max-width: 350px) {
+  .input {
+    max-width: 250px;
+  }
+
+  .input-button {
+    left: calc(50% + -7px);
+    z-index: 100;
+  }
+}

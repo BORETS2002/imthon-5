@@ -1,0 +1,65 @@
+.lists {
+  padding: 0 30px;
+  padding-bottom: 133px;
+}
+
+.lists-text-box {
+  max-width: 820px;
+}
+.listts-margin {
+  margin-bottom: 106px;
+}
+
+.list-mig-text {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.hreft-list {
+  width: 21px;
+}
+.itms {
+  margin-bottom: 63px;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-image: url("/images/li-one.svg");
+    background-repeat: no-repeat;
+  }
+  &:nth-child(2)::before {
+    background-image: url("/images/li-twoo.svg");
+  }
+
+  &:nth-child(3)::before {
+    background-image: url("/images/li-three.svg");
+  }
+}
+.itms {
+  &:nth-child(4)::before {
+    background-image: url("/images/li-for.svg");
+  }
+
+  &:nth-child(5)::before {
+    background-image: url("/images/li-fieve.svg");
+  }
+
+  &:nth-child(6)::before {
+    background-image: url("/images/li-six.svg");
+  }
+}
+@media screen and (max-width: 768px) {
+  .itms {
+    margin-bottom: 110px;
+    margin-right: 0;
+  }
+
+  .lists {
+    padding-bottom: 108px;
+  }
+}
