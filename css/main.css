@@ -588,7 +588,7 @@ body {
 .site-footer {
   padding: 0 30px;
   padding-top: 66px;
-  padding-bottom: 29px;
+  padding-bottom: 56px;
 }
 
 .logo-boxs {
@@ -688,6 +688,12 @@ body {
 }
 .itms:nth-child(6)::before {
   background-image: url("/images/li-six.svg");
+}
+
+.fot-list {
+  width: 34px;
+  height: 34px;
+  margin-right: 16px;
 }
 
 @media screen and (max-width: 768px) {
